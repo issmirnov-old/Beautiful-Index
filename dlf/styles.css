@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+
+
+/*--------------- end RESET ---------------------------------*/
+body { 
+	background-color: #f5fbff;
+}
+
+/* Breadcrumbs */
+#breadcrumbs {
+	width: 65%;
+	color: #222;
+	font-family: Open Sans;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-top: 32px;
+}
+
+
+#breadcrumbs a, #breadcrumbs a:visited, #breadcrumbs a:link, #breadcrumbs a:active {
+	font-size: 20px;
+	color: #222;
+	text-decoration:none;
+}
+
+#breadcrumbs a:hover {
+	color: #666;
+}
+
+img {
+
+}
+
+#listingcontainer {
+	width: 60%; /* 600px*/
+	margin: 13px auto 30px auto; /*adds space above and below, and centers div*/
+	border: 1px solid #CCDBEB;
+	padding: 26px;
+	padding-bottom: 20px;/*stretches the div down*/
+	background-color:#FFFFFF;
+}
+
+#listingheader {
+	font-family:Open Sans;
+	font-size:small;
+	text-align:right;
+	margin-bottom: 10px;
+	height:15px;
+}
+
+#listingheader a, #listingheader a:active, #listingheader a:visited, #listingheader a:link {
+	text-decoration: none;
+	color: #777;
+}
+
+#listingheader a:hover {
+	text-decoration: underline;
+	color: #476BB3;
+
+}
+
+
+#headerfile {
+	text-align:left;
+	float: left;
+	width: 53%; 
+}
+
+#headersize {
+	text-align:right;
+	width: 13%;
+	float: left;
+}
+
+#headermodified {
+	text-align:right;
+	width: 34%;
+	float: left;
+}
+
+#listing {
+}
+
+#listing div {
+height: 32px;
+padding: 8px 0px 8px 0px;
+font-size: 14px;
+}
+
+#listing div.line {
+
+border-top: 1px solid #f0f0f0;
+
+}
+
+
+
+#listing a {
+line-height: 32px;
+	display:block;
+	padding: 2px 5px 2px 5px;
+	font-size: 13px;
+	font-family:Open Sans;
+	text-decoration:none;
+	/*width:568px;*/
+	
+	text-align:right;
+	color: #555;
+}
+
+#listing a:hover .filename{
+text-decoration: underline;
+/*optional change bg by classes*/
+}
+
+#listing a img {
+	float:left;
+	margin-right: 4px;
+	width: 32px;
+	height: 32px;
+}
+
+
+
+#listing a .filename {
+	width: 53%;
+	float:left;
+	cursor:hand;
+	cursor:pointer;
+	text-align:left;
+	color: #6285CA;
+	padding-top: 0px;
+	overflow:hidden;
+}
+
+#listing a .size {
+	float: left;
+	width: 13%;
+	text-align:right;
+	cursor:hand;
+	cursor:pointer;
+	padding-top: 0px;
+	overflow:hidden;
+}
+
+
+.lastmod {
+	float: none;
+	text-align: right;
+	cursor: hand;
+	cursor: pointer;
+	margin-top: -8px;
+}
+
+
+#listing a span {
+	position: absolute;
+	margin-left: -151px;
+	margin-top: -2px;
+}
+
+#listing a.b {
+/*background:#f0f0f0;*/
+}
+
+
